@@ -1,0 +1,61 @@
+
+body {
+	background-image: url(https://i.pinimg.com/originals/2a/07/06/2a07069b9bd4f15fb6d89fc55d164245.jpg);
+ 	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	font-family: sans-serif; 
+  	color:$white;
+  	height:100%;
+  	text-align:center;
+  	font-size:20px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 100px;
+	color: orange;
+}
+
+h2 {
+	text-align: center;
+	font-size: 50px;
+	   animation:blinkingText 1s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: orange;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color: orange;  }
+    100%{   color: orange;    }
+}
+
+.underscore {
+	border: 5px outset white;
+	font-size:100px;
+	margin: 50px auto;
+	text-align: center;
+	height: 150px;
+	width: 80%;
+	color: white;
+}
+
+.rightGuess {
+	border: 3px outset white;
+	font-size: 50px;
+	margin: 50px auto;
+	text-align: center;
+	height: 150px;
+	width: 80%;
+	color: white;
+}
+
+.wrongGuess {
+	border: 3px outset white;
+	font-size: 50px;
+	margin: 50px auto;
+	text-align: center;
+	height: 150px;
+	width: 80%;
+	color: white;
+}
