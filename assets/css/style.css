@@ -22,6 +22,12 @@ h2 {
 	font-size: 50px;
 	   animation:blinkingText 1s infinite;
 }
+
+p {
+	color: orange;
+	font-size: 30px;
+}
+
 @keyframes blinkingText{
     0%{     color: orange;    }
     49%{    color: transparent; }
@@ -30,32 +36,53 @@ h2 {
     100%{   color: orange;    }
 }
 
-.underscore {
+#wordToGuess {
 	border: 5px outset white;
 	font-size:100px;
 	margin: 50px auto;
 	text-align: center;
-	height: 150px;
+	height: 120px;
 	width: 80%;
 	color: white;
 }
 
-.rightGuess {
+#numGuesses {
 	border: 3px outset white;
 	font-size: 50px;
 	margin: 50px auto;
 	text-align: center;
-	height: 150px;
-	width: 80%;
+	height: 120px;
+	width: 60%;
 	color: white;
 }
 
-.wrongGuess {
+#wrongGuesses {
 	border: 3px outset white;
 	font-size: 50px;
 	margin: 50px auto;
 	text-align: center;
-	height: 150px;
-	width: 80%;
+	height: 120px;
+	width: 60%;
 	color: white;
 }
+
+#winCounter {
+	border: 3px outset white;
+	font-size: 50px;
+	margin: 50px auto;
+	text-align: center;
+	height: 120px;
+	width: 60%;
+	color: white;
+}
+
+#lossCounter {
+	border: 3px outset white;
+	font-size: 50px;
+	margin: 50px auto;
+	text-align: center;
+	height: 120px;
+	width: 60%;
+	color: white;
+}
+

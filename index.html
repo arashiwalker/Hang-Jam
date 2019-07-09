@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>HANG JAM</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -12,11 +13,18 @@
 			<h1>HANG JAM</h1>
 			<h2 class="start">Press any key to get started!</h2>
 		</header>
-		<div class ="underscore"></div>
-		<div class ="rightGuess">right guess</div>
-		<div class ="wrongGuess">wrong guess</div>
+		<div id ="wordToGuess">_ _ _ _ _ _ _</div>
+		<p>GUESSES LEFT</p>
+		<div id ="numGuesses"></div>
+		<p>WRONG GUESSES</p>
+		<div id ="wrongGuesses"></div>
+		<p>WIN COUNTER</p>
+		<div id ="winCounter"></div>
+		<p>LOSS COUNTER</p>
+		<div id ="lossCounter"></div>
 	</div>
+
 <script src="assets/javascript/game.js"></script>
 </body>
-
+</html>
 
