@@ -127,7 +127,7 @@ Having an active and healthy commit history on GitHub is important for your futu
      2. Focus on one of the smaller problems and solve it.
      3. Only when you solve one problem should you then move onto your next problem.
 
-3. When you encounter bugs (and we all do), `console.log` will become your best friend. Regularly check your console to make sure your app is spitting out the right values.
+3. When you encounter bugs (and we all do),  `console.log` will become your best friend. Regularly check your console to make sure your app is spitting out the right values.
 
    * As a more advanced—but more powerful—alternative, feel free to experiment with the [Chrome DevTools Debugger](https://developers.google.com/web/tools/chrome-devtools/).
 
